@@ -5,7 +5,7 @@ using UnityEngine;
 public class MouseLook : MonoBehaviour  
 {
     //obviously how fast you look around, change to preference :)
-    public float mouseSensitivity = 10000f;
+    public float mouseSensitivity = 100f;
     //this is so you can link the camera to the body
     public Transform playerBody;
     //start of moving y axis

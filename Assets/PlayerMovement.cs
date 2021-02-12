@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     //This will tell the game where youre moving to, whether using keyboard or controller (basically driving the character)
     public CharacterController controller;
     //the speed of character
-    public float speed = 12f;
+    public float speed = 5f;
     //Base speed of gravity for falling
     public float gravity = -9.81f;
     //Jump Height
